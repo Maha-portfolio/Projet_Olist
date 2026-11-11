@@ -172,23 +172,6 @@ flowchart TD
 7. **Résultats et recommandations** : présentation des principaux enseignements de l'analyse et formulation de recommandations métier visant notamment à identifier les pistes d'amélioration de la performance logistique et de l'expérience client.
 
 ```
-[Data Source(s)]
-      ↓
-[Ingestion / Collection Method]
-      ↓
-[Cleaning & Transformation]
-      ↓
-[Analysis / Modelling / Querying]
-      ↓
-[Output / Visualisation / Reporting]
-```
-
-1. **Source:** [Where did the data come from? Format, size, access method.]
-2. **Ingestion:** [How was it brought in?]
-3. **Cleaning:** [What issues did you find and fix?]
-4. **Transformation:** [What new fields, aggregations, or structures did you create?]
-5. **Analysis:** [What methods - statistical, visual, query-based, model-based?]
-6. **Output:** [What form do the results take?]
 
 ---
 
