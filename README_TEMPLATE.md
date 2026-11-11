@@ -150,30 +150,26 @@
 
 
 ---
+## 5. Flux de données
 
-## 5. Data Workflow
+```mermaid
+flowchart TD
+    A[9 fichiers CSV Olist] --> B[Exploration et audit avec Python / Pandas]
+    B --> C[Importation des données brutes dans PostgreSQL]
+    C --> D[Nettoyage et transformations avec SQL]
+    D --> E[Modélisation des données et création des KPI]
+    E --> F[Connexion à Power BI et création du modèle analytique]
+    F --> G[Dashboard Power BI]
+    G --> H[Insights et recommandations métier]
+```
 
-<!--
-  Show how data moved through your project - from source to output.
-  Every transformation decision should be traceable here.
-
-  WHAT GOOD LOOKS LIKE:
-  1. Source: "Monthly CSV exports pulled from the internal POS system.
-              Five files, one per region, covering Jan 2023–Jun 2024."
-  2. Ingestion: "Loaded into Python using pandas. Files concatenated into
-                 a single dataframe (approx. 340,000 rows)."
-  3. Cleaning: "Removed 1.2% of rows with null transaction IDs.
-                Standardised date formats across regional files.
-                Resolved product category naming inconsistencies (3 variants → 1)."
-  4. Transformation: "Created a returns_rate field at product-category level.
-                      Aggregated to weekly and regional grain for trend analysis."
-  5. Analysis: "Descriptive statistics, regional comparison, return rate
-                segmentation by product category."
-  6. Output: "Summary report (PDF), annotated notebook, processed CSV."
-
-  WHAT TO AVOID:
-  ❌ "Data was cleaned and analysed." (No chain. No decisions. No trust.)
--->
+1. **Source :** utilisation du jeu de données public Brazilian E-Commerce Public Dataset by Olist, qui contient neuf fichiers CSV décrivant les commandes, les clients, les produits, les vendeurs, les paiements, les avis et les données géographiques. Les données couvrent la période 2016-2018.
+2. **Exploration et audit** : utilisation de Python et de la bibliothèque Pandas pour explorer les neuf fichiers, comprendre leur structure et contrôler leur qualité : dimensions, types de données, valeurs manquantes, doublons, unicité des identifiants et cohérence des données.
+3. **Ingestion** : importation des fichiers CSV dans une base de données relationnelle PostgreSQL, en conservant les données brutes afin de préserver une référence aux sources originales.
+4. **Nettoyage et transformation** : utilisation de SQL pour traiter les problèmes de qualité identifiés, harmoniser les données, vérifier les relations entre les tables et préparer les données pour l'analyse. Les corrections et exclusions éventuelles seront justifiées et documentées.
+5. **Modélisation et analyse** : création d'un modèle de données adapté aux besoins analytiques, puis élaboration d'indicateurs clés de performance (KPI), notamment autour des commandes, des ventes, des délais de livraison et de la satisfaction client.
+6. **Visualisation** : connexion de Power BI à la base de données préparée, création du modèle analytique, des mesures DAX et des tableaux de bord interactifs.
+7. **Résultats et recommandations** : présentation des principaux enseignements de l'analyse et formulation de recommandations métier visant notamment à identifier les pistes d'amélioration de la performance logistique et de l'expérience client.
 
 ```
 [Data Source(s)]
