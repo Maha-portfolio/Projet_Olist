@@ -171,8 +171,6 @@ flowchart TD
 6. **Visualisation** : connexion de Power BI à la base de données préparée, création du modèle analytique, des mesures DAX et des tableaux de bord interactifs.
 7. **Résultats et recommandations** : présentation des principaux enseignements de l'analyse et formulation de recommandations métier visant notamment à identifier les pistes d'amélioration de la performance logistique et de l'expérience client.
 
-```
-
 ---
 
 ## 6. Data Model & Schema
