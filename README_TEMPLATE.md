@@ -505,14 +505,9 @@ erDiagram
 
 ## 14. Author
 
-**[Your Name]**
-[Your role or title - current or target]
 
-- 🔗 [LinkedIn URL]
-- 💼 [Portfolio or GitHub profile URL]
-- 📧 [Email - optional]
+**Maha HOSNI**
+Data analyst junior
 
----
 
-*Last updated: [Month YYYY]*
-*If this template helped you, consider starring the repository.*
+- 💼 [GitHub](https://github.com/Maha-portfolio)
