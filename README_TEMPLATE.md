@@ -117,13 +117,6 @@
 | **Time Period** | [Date range of the data or the project itself] |
 | **Granularity** | [Unit of analysis - row-level, daily aggregates, per-user, etc.] |
 
-### Tools & Technologies
-
-<!--
-  List only what you actually used on this project.
-  This is not your skills section - it's the project's technical context.
--->
-
 ### Outils & Technologies
 
 | Catégories | Outil(s) utilisé(s) |
