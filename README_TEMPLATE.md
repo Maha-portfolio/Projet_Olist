@@ -124,15 +124,18 @@
   This is not your skills section - it's the project's technical context.
 -->
 
-| Category | Tool(s) Used |
+### Outils & Technologies
+
+| Catégories | Outil(s) utilisé(s) |
 |----------|-------------|
-| Data Storage | [e.g., PostgreSQL, CSV files, BigQuery, S3] |
-| Data Processing | [e.g., Python, R, SQL, Excel, dbt] |
-| Analysis | [e.g., pandas, dplyr, custom SQL queries] |
-| Visualization | [e.g., Matplotlib, Tableau, Power BI, Looker] |
-| Version Control | [e.g., Git / GitHub] |
-| Documentation | [e.g., Markdown, Notion] |
-| Other | [Any additional tools] |
+| Source des données | Fichier CSV (Sample Superstore) |
+| Exploration des tableau| panda (Google Colab |
+| Stockage | SQL (postgreSQL) |
+| Traitement des données | SQL (postgreSQL) |
+| Analyse et calculs | DAX (Power BI) |
+| Visualisation | Power BI |
+| Gestion de versions | Git / GitHub |
+| Documentation | Markdown |
 
 ---
 
